@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="Game.js"></script>
+  </head>
+  <body>
+    <p><span class="time"></span></p>
+    <p><span class="score"></span></p>
+    <p><span class="left"></span></p>
+    <div class="screen">
+      <table>
+        <tr>
+          <td class="blank" id="0"></td>
+          <td class="blank" id="1"></td>
+          <td class="blank" id="2"></td>
+        </tr>
+        <tr>
+          <td class="blank" id="3"></td>
+          <td class="blank" id="4"></td>
+          <td class="blank" id="5"></td>
+        </tr>
+        <tr>
+          <td class="blank" id="6"></td>
+          <td class="blank" id="7"></td>
+          <td class="blank" id="8"></td>
+        </tr>
+      </table>
+    </div>
+
+    <button class="button" id="easy" onclick="game('easy')">easy</button>
+    <button class="button" id="normal" onclick="game('normal')">normal</button>
+    <button class="button" id="hard" onclick="game('hard')">hard</button>
+  </body>
+</html>

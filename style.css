@@ -1,0 +1,27 @@
+.screen {
+  width: 600;
+  height: 600;
+}
+.button {
+  width: 150px;
+  height: 150px;
+  font-size: larger;
+}
+td {
+  position: relative;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
+.tree {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+.apple {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 100;
+  left: 100;
+}
